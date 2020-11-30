@@ -14,7 +14,7 @@ if val<vector (1) || val>vector(end)
    %som svar
 elseif val==vector(1)
     index=2;
-    disp('Värdet stämmer överns med första elementet')
+    %disp('Värdet stämmer överns med första elementet')
     %När värdet stämmer överns med index 1
 else
     while vector(index)<val
