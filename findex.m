@@ -1,5 +1,5 @@
-function [index] = findpos(vector, val)
-%finpos hittar vilket index av en vektor som ger ditt sökta värde
+function [index] = findex(vector, val)
+%findex hittar vilket index av en vektor som ger ditt sökta värde
 %inmantning: vector, sökt värde
 index=1;
 
