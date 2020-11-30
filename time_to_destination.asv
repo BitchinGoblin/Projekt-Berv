@@ -1,0 +1,21 @@
+function T=time_to_destination(x, route, n)
+%x=distans
+%n=antalintervall
+
+load(route)%laddar rätt anna eller elsa
+h=x/n;  %steglängd
+s=0:h:x; %skapar vektor
+v=velocity(s, route); %
+f=1./v;
+%tiden i minuter med trapets. alla inrepunkter räknas 2ggr.
+T=(h/2)*(f(1)+(2*sum(f(2:end-1))+f(end)))*60;
+
+%--------Kommentarer om felen-------------
+%för Anna:
+%diskfel med n=400 -> Rt= -0.6727
+%antag att mätfelet är +- 1km/h -> funktionsfel=0.9117
+
+
+
+
+end
