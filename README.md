@@ -1,3 +1,2 @@
 # Projekt-Berv
-hej torbjörn
-hej hops
+Projekt för Berv1
